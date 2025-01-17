@@ -23,9 +23,7 @@ jobs:
           context: ./src
           push: true
           file: ./src/Dockerfile
-          tags: 
-            willianmarioti/fake-shop:latest
-            willianmarioti/fake-shop:v${{ github.run_number}}
+          tags: willianmarioti/fake-shop:v${{ github.run_number}}, willianmarioti/fake-shop:latest
 
   cd:
     runs-on: ubuntu-latest
