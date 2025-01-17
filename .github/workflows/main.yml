@@ -25,7 +25,7 @@ jobs:
           file: ./src/Dockerfile
           tags: 
             willianmarioti/fake-shop:latest
-            willianmarioti/fake-shop:v${{ github.run_number }}
+            willianmarioti/fake-shop:v1
 
   cd:
     runs-on: ubuntu-latest
