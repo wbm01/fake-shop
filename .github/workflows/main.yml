@@ -23,9 +23,6 @@ jobs:
           context: ./src
           push: true
           file: ./src/Dockerfile
-          tags: 
-            willianmarioti/fakeshop:latest
-            willianmarioti/fakeshop:v1
 
   cd:
     runs-on: ubuntu-latest
